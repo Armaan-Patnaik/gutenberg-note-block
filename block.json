@@ -1,0 +1,13 @@
+{
+  "apiVersion": 2,
+  "name": "armaan/note-block",
+  "title": "Note Block",
+  "category": "widgets",
+  "icon": "sticky",
+  "editorScript": "file:./build/index.js",
+  "style": "file:./build/style-index.css",
+  "editorStyle": "file:./build/index.css",
+  "attributes": {
+    "note": { "type": "string", "source": "html", "selector": "div" }
+  }
+}
